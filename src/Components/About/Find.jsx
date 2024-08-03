@@ -11,7 +11,7 @@ const Find = () => {
                 <p className='text-[16px] text-[#ffffff] text-center'>Do you want to find the nearest gym to you? </p>
 
                 <div className='flex items-center mt-3'>
-                    <input type="text" className='w-[750px] h-[83px] p-5' placeholder='Enter your nearest landmark'/>
+                    <input type="text" className='w-[750px] h-[83px] p-5 text-[#1b1b1b]' placeholder='Enter your nearest landmark'/>
                     <button className='bg-[#FFA500] w-[220px] h-[67px] text-[#1b1b1b] font-semibold -ml-56'>Find Gym</button>
                 </div>
             </div>
