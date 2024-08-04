@@ -57,6 +57,11 @@ import alarmclock2 from "./alarmclock2.png";
 import playcircle from "./playcircle.png";
 import looper2 from "./looper2.png";
 import dumbbells from "./dumbbells.png";
+import warn from "./warn.png";
+import arrowdown from "./arrowdown.png";
+import rhombus from "./rhombus.png";
+import crown from "./crown.png";
+import rocket from "./rocket.png";
 
 
 
@@ -66,8 +71,13 @@ export {
     sharon,
     shola,
     stars,
+    warn,
     vcard,
+    rhombus,
+    crown,
+    rocket,
     alarmclock2,
+    arrowdown,
     playcircle,
     dumbbellgym,
     dumbbells,

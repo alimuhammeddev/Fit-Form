@@ -10,6 +10,8 @@ import Prompt from "./Home/Prompt";
 import Map from "./Home/Map";
 import Footer from "../Footer";
 import Hero2 from "./About/Hero2";
+import Gym from "../Pages/Gym";
+import Navbar from "../Navbar";
 
 
 export {
@@ -25,4 +27,6 @@ export {
     Map,
     Footer,
     Hero2,
+    Gym,
+    Navbar,
 }

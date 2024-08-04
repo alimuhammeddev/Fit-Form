@@ -79,10 +79,10 @@ const About = () => {
         </div>
 
         <div>
-        <div className='mt-24'>
-          <Footer />
+          <div className='mt-24'>
+            <Footer />
+          </div>
         </div>
-      </div>
     </div>
   )
 }

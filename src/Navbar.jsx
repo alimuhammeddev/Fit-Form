@@ -7,7 +7,7 @@ const Navbar = () => {
     let Links = [
         { name: "Home", link: "/" },
         { name: "About Us", link: "/about-us" },
-        { name: "Gym Membership", link: "/" },
+        { name: "Gym Membership", link: "/gym-membership" },
         { name: "Classes", link: "/" },
         { name: "Blog", link: "/" },
         { name: "Store", link: "/" },
