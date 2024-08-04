@@ -62,6 +62,9 @@ import arrowdown from "./arrowdown.png";
 import rhombus from "./rhombus.png";
 import crown from "./crown.png";
 import rocket from "./rocket.png";
+import meditation from "./meditation.png";
+import intensity from "./intensity.png";
+import barre from "./barre.png";
 
 
 
@@ -76,6 +79,9 @@ export {
     rhombus,
     crown,
     rocket,
+    meditation,
+    intensity,
+    barre,
     alarmclock2,
     arrowdown,
     playcircle,

@@ -8,7 +8,7 @@ const Navbar = () => {
         { name: "Home", link: "/" },
         { name: "About Us", link: "/about-us" },
         { name: "Gym Membership", link: "/gym-membership" },
-        { name: "Classes", link: "/" },
+        { name: "Classes", link: "/classes" },
         { name: "Blog", link: "/" },
         { name: "Store", link: "/" },
         { name: "Contact Us", link: "/" },
