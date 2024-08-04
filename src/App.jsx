@@ -5,6 +5,8 @@ import ScrollToTop from './Components/ScrollToTop';
 import About from './Pages/About';
 import { Gym } from './Components';
 import Classes1 from './Pages/Classes1';
+import Blog1 from './Pages/Blog1';
+import BlogNutrition from './Pages/BlogNutrition';
 
 const App = () => {
   return (
@@ -13,9 +15,11 @@ const App = () => {
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='about-us' element={<About />}/>
-          <Route path='gym-membership' element={<Gym />}/>
-          <Route path='classes' element={<Classes1 />}/>
+          <Route path='/about-us' element={<About />}/>
+          <Route path='/gym-membership' element={<Gym />}/>
+          <Route path='/classes' element={<Classes1 />}/>
+          <Route path='/blog' element={<Blog1 />}/>
+          <Route path='/blog-nutrition' element={<BlogNutrition />}/>
         </Routes>
       </div>
     </Router>

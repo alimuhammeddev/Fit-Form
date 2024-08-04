@@ -31,8 +31,10 @@ import test4 from "./test4.png";
 import test5 from "./test5.png";
 import stars from "./stars.png";
 import nutrition from "./nutrition.png";
+import nutrition2 from "./nutrition2.png";
 import beginners from "./beginners.png";
 import knowledge from "./knowledge.png";
+import knowledge2 from "./knowledge2.png";
 import calendar from "./calendar.png";
 import pentool from "./pentool.png";
 import manbuilding from "./manbuilding.png";
@@ -65,7 +67,17 @@ import rocket from "./rocket.png";
 import meditation from "./meditation.png";
 import intensity from "./intensity.png";
 import barre from "./barre.png";
-
+import successstories from "./successstories.png";
+import fitnesstrend from "./fitnesstrend.png";
+import eventsrecap from "./eventsrecap.png";
+import motivation from "./motivation.png";
+import leftarrow from "./leftarrow.png";
+import rightarrow from "./rightarrow.png";
+import arrowright from "./arrowright.png";
+import arrrowleft from './arrrowleft.png';
+import pentool3 from "./pentool3.png";
+import nutritionhero from "./nutritionhero.png";
+import mansitting from "./mansitting.png";
 
 
 export {
@@ -76,7 +88,20 @@ export {
     stars,
     warn,
     vcard,
+    nutritionhero,
+    mansitting,
+    pentool3,
     rhombus,
+    leftarrow,
+    rightarrow,
+    arrrowleft,
+    arrowright,
+    successstories,
+    nutrition2,
+    knowledge2,
+    motivation,
+    fitnesstrend,
+    eventsrecap,
     crown,
     rocket,
     meditation,

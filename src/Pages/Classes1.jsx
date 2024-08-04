@@ -8,15 +8,15 @@ const Classes1 = () => {
   return (
     <section>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.boxWidth}`}>
             <Navbar />
-            </div>
+          </div>
         </div>
 
         <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44`}>
-            <div className={`${styles.boxWidth} pl-10`}>
+          <div className={`${styles.boxWidth} pl-10`}>
             <Hero4 />
-            </div>
+          </div>
         </div>
 
         <div>
