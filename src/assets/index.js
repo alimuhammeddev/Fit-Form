@@ -83,18 +83,44 @@ import yogaoutfit from "./yogaoutfit.png";
 import stars4 from "./stars4.png";
 import armless from "./armless.png";
 import shoes from "./shoes.png";
+import yogabra from "./yogabra.png";
+import golddumbbells from "./golddumbbells.png";
+import headphone from "./headphone.png";
+import girl from "./girl.png";
+import girl1 from "./girl1.png";
+import girl2 from "./girl2.png";
+import girl3 from "./girl3.png";
+import smallyoga from "./smallyoga.png";
+import goldarrow from"./goldarrow.png";
+import truck from "./truck.png";
+import call from "./call.png";
+import return1 from "./return1.png";
+import oneyoga from "./oneyoga.png";
 
 export {
     logo,
     star,
     sharon,
+    girl,
+    girl1,
+    girl2,
+    girl3,
     shola,
     stars,
     warn,
     vcard,
+    truck,
+    oneyoga,
+    call,
+    return1,
     storehero,
+    goldarrow,
+    smallyoga,
     armless,
     shoes,
+    golddumbbells,
+    yogabra,
+    headphone,
     stars4,
     nutritionhero,
     yogaoutfit,

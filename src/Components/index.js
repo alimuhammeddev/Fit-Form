@@ -12,6 +12,7 @@ import Footer from "../Footer";
 import Hero2 from "./About/Hero2";
 import Gym from "../Pages/Gym";
 import Navbar from "../Navbar";
+import Yoga from "../Pages/Yoga";
 
 
 export {
@@ -29,4 +30,5 @@ export {
     Hero2,
     Gym,
     Navbar,
+    Yoga,
 }

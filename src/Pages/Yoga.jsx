@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from '../style'
 import Navbar from '../Navbar'
-import Hero7 from '../Components/Store/Hero7'
+import YogaHero from '../Components/Yoga/YogaHero'
 import Footer from '../Footer'
 
-const Store = () => {
+const Yoga = () => {
   return (
     <div>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -13,9 +13,9 @@ const Store = () => {
             </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} mt-36`}>
-            <div className={`${styles.boxWidth} lg:pl-10`}>
-            <Hero7 />
+        <div className={`${styles.paddingX} ${styles.flexCenter} mt-40`}>
+            <div className={`${styles.boxWidth} pl-10`}>
+            <YogaHero />
             </div>
         </div>
 
@@ -28,4 +28,4 @@ const Store = () => {
   )
 }
 
-export default Store
+export default Yoga
