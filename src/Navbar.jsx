@@ -10,7 +10,7 @@ const Navbar = () => {
         { name: "Gym Membership", link: "/gym-membership" },
         { name: "Classes", link: "/classes" },
         { name: "Blog", link: "/blog" },
-        { name: "Store", link: "/" },
+        { name: "Store", link: "/store" },
         { name: "Contact Us", link: "/" },
     ];
     let [open, setOpen] = useState(false);

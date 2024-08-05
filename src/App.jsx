@@ -7,6 +7,7 @@ import { Gym } from './Components';
 import Classes1 from './Pages/Classes1';
 import Blog1 from './Pages/Blog1';
 import BlogNutrition from './Pages/BlogNutrition';
+import Store from './Pages/Store';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/classes' element={<Classes1 />}/>
           <Route path='/blog' element={<Blog1 />}/>
           <Route path='/blog-nutrition' element={<BlogNutrition />}/>
+          <Route path='/store' element={<Store />}/>
         </Routes>
       </div>
     </Router>

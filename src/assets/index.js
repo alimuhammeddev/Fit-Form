@@ -78,7 +78,11 @@ import arrrowleft from './arrrowleft.png';
 import pentool3 from "./pentool3.png";
 import nutritionhero from "./nutritionhero.png";
 import mansitting from "./mansitting.png";
-
+import storehero from "./storehero.png";
+import yogaoutfit from "./yogaoutfit.png";
+import stars4 from "./stars4.png";
+import armless from "./armless.png";
+import shoes from "./shoes.png";
 
 export {
     logo,
@@ -88,7 +92,12 @@ export {
     stars,
     warn,
     vcard,
+    storehero,
+    armless,
+    shoes,
+    stars4,
     nutritionhero,
+    yogaoutfit,
     mansitting,
     pentool3,
     rhombus,
