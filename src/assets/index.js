@@ -106,6 +106,7 @@ import strappy from "./strappy.png";
 import tanktop from "./tanktop.png";
 import timeless from "./timeless.png";
 import classic from "./classic.png";
+import contactimage from "./contactimage.png";
 
 export {
     logo,
@@ -123,6 +124,7 @@ export {
     gymbag,
     shirt,
     sneakers,
+    contactimage,
     solid,
     strappy,
     tanktop,
