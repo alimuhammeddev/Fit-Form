@@ -3,6 +3,7 @@ import styles from '../style'
 import Navbar from '../Navbar'
 import ContactHero from '../Components/Contact/ContactHero'
 import Footer from '../Footer'
+import { Map } from '../Components'
 
 const Contact = () => {
   return (
@@ -20,7 +21,7 @@ const Contact = () => {
         </div>
 
         <div>
-        <div className='mt-5'>
+        <div className='mt-24'>
           <Footer />
         </div>
       </div>
