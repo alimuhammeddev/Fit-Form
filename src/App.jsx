@@ -9,6 +9,7 @@ import Blog1 from './Pages/Blog1';
 import BlogNutrition from './Pages/BlogNutrition';
 import Store from './Pages/Store';
 import Yoga from './Pages/Yoga';
+import StoreProduct from './Pages/StoreProduct';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/blog-nutrition' element={<BlogNutrition />}/>
           <Route path='/store' element={<Store />}/>
           <Route path='/yoga' element={<Yoga />}/>
+          <Route path='/store-product' element={<StoreProduct />}/>
         </Routes>
       </div>
     </Router>

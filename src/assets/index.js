@@ -96,6 +96,16 @@ import truck from "./truck.png";
 import call from "./call.png";
 import return1 from "./return1.png";
 import oneyoga from "./oneyoga.png";
+import preference from "./preference.png";
+import fitness from "./fitness.png";
+import gymbag from "./gymbag.png";
+import shirt from "./shirt.png";
+import sneakers from "./sneakers.png";
+import solid from "./solid.png";
+import strappy from "./strappy.png";
+import tanktop from "./tanktop.png";
+import timeless from "./timeless.png";
+import classic from "./classic.png";
 
 export {
     logo,
@@ -107,7 +117,17 @@ export {
     girl3,
     shola,
     stars,
+    preference,
     warn,
+    fitness,
+    gymbag,
+    shirt,
+    sneakers,
+    solid,
+    strappy,
+    tanktop,
+    timeless,
+    classic,
     vcard,
     truck,
     oneyoga,

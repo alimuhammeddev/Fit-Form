@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import { armless, call, girl, girl1, girl2, girl3, goldarrow, oneyoga, rating, return1, shoes, smallyoga, stars4, truck, yogaoutfit } from '../../assets'
 
 const YogaHero = () => {
@@ -116,7 +117,9 @@ const YogaHero = () => {
         <div>
             <div className='flex items-center justify-between'>
                 <h1 className='text-[#1b1b1b] text-[40px] font-semibold'>Similar Products</h1>
-                <h2 className='text-[#E89600] text-[20px] font-semibold'>See all</h2>
+                <Link to="/store-product">
+                    <h2 className='text-[#E89600] text-[20px] font-semibold'>See all</h2>
+                </Link>
             </div>
 
             <div className='grid lg:grid-cols-3 gap-10 pl-1 mt-5'>
