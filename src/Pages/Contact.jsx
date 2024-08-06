@@ -3,7 +3,6 @@ import styles from '../style'
 import Navbar from '../Navbar'
 import ContactHero from '../Components/Contact/ContactHero'
 import Footer from '../Footer'
-import { Map } from '../Components'
 
 const Contact = () => {
   return (
