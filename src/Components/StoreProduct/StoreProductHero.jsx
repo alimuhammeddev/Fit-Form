@@ -226,7 +226,7 @@ const StoreProductHero = () => {
           <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={rightarrow} alt="" /></h1>  
         </div>
     </section>
-  )
-}
+  );
+};
 
 export default StoreProductHero
