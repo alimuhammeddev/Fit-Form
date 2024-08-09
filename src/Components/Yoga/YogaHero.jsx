@@ -16,7 +16,7 @@ const YogaHero = () => {
             <h2 className='font-semibold text-[40px] text-[#1B1B1B] text-center'>Product</h2>
         </div>
 
-        <div className=' flex lg:flex-row gap-7'>
+        <div className=' flex lg:flex-row gap-7 mt-10'>
             <div>
                 <img src={girl} alt="" className='w-full'/>
                 <div className='flex items-center gap-[15px] mt-7'>
@@ -64,7 +64,7 @@ const YogaHero = () => {
                         <h1 className='text-[12px] text-[#1B1B1B] w-[60px] h-[36px] p-2 border border-[#B7AFAF] text-center'>Small</h1>
                         <h1 className='text-[12px] text-[#1B1B1B] w-[60px] h-[36px] p-2 border border-[#B7AFAF] text-center'>Medium</h1>
                         <h1 className='text-[12px] text-[#1B1B1B] w-[60px] h-[36px] p-2 border border-[#B7AFAF] text-center'>Large</h1>
-                        <h1 className='text-[12px] text-[#1B1B1B] w-[60px] h-[36px] p-2 border border-[#B7AFAF] text-center'>X-Large</h1>
+                        <h1 className='text-[12px] text-[#1B1B1B] w-[61px] h-[36px] p-2 border border-[#B7AFAF] text-center'>X-Large</h1>
                     </div>
 
                     <div className='mt-3'>
@@ -96,7 +96,7 @@ const YogaHero = () => {
                         <h1 className='w-[253px] h-[42px] font-semibold text-[16px] text-[#1B1B1B] bg-[#FFE3B0] p-2 text-center'>Description</h1>
                         <h1 className='w-[253px] h-[42px] font-semibold text-[16px] text-[#1B1B1B] bg-[#FFF6E680] p-2 text-center'>Reviews</h1>
                         </div>
-                        <div>
+                        <div className='mt-1'>
                             <h1 className='text-[14px] text-[#3E3838]'>Elevate your yoga practice with our stylish and comfortable yoga outfit, <br /> designed to enhance your performance and inspire confidence on the mat. <br /> Crafted from premium materials with a focus on both functionality and <br /> fashion, this outfit is perfect for yogis of all levels.</h1>
                             <h2 className='text-[14px] text-[#3E3838]'><span className='font-semibold text-[#1b1b1b]'>Crop Top:</span> Our lightweight and breathable yoga top features a flattering <br /> silhouette and moisture-wicking fabric to keep you cool and dry during even <br /> the most intense yoga sessions. With its four-way stretch construction and <br /> seamless design, this top provides maximum freedom of movement and a <br /> comfortable fit that moves with your body</h2>
                         </div>
@@ -118,11 +118,11 @@ const YogaHero = () => {
             <div className='flex items-center justify-between'>
                 <h1 className='text-[#1b1b1b] text-[40px] font-semibold'>Similar Products</h1>
                 <Link to="/store-product">
-                    <h2 className='text-[#E89600] text-[20px] font-semibold'>See all</h2>
+                    <h2 className='text-[#E89600] text-[20px] font-semibold mr-8'>See all</h2>
                 </Link>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-10 pl-1 mt-5'>
+            <div className='grid lg:grid-cols-3 lg:gap-0 gap-10 pl-1 mt-5'>
 
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={oneyoga} alt="" />

@@ -6,8 +6,8 @@ const Hero7 = () => {
   return (
     <section>
         <div className="relative">
-            <img src={storehero} alt="" className="w-full" />
-            <div className="absolute inset-0 bg-[#000B194D] opacity-100"></div>
+            <img src={storehero} alt="" className="w-fit" />
+            <div className="absolute inset-0 bg-[#000B194D] opacity-100 w-[1210px]"></div>
             <div className="absolute inset-0 items-center justify-center mt-44">
                 <h1 className="text-[#ffffff] text-center text-[40px] font-semibold">Elevate your fitness style by shopping <br className='lg:block hidden'/> from us!</h1>
                 <p className='text-[#ffffff] text-center text-[20px]'>Our stylish wears ensures you look and feel your best, whether you're hitting <br /> the gym or breaking a sweat at home. Shop now and unleash your potential!</p>
@@ -23,7 +23,7 @@ const Hero7 = () => {
                 <h2 className='text-[#1B1B1B] lg:text-[40px] font-semibold text-center'>Don’t Miss it!</h2>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-10 pl-1 mt-5'>
+            <div className='grid lg:grid-cols-3 lg:gap-0 gap-5 pl-1 mt-5'>
                 <Link to="/yoga">
                     <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                         <img src={yogaoutfit} alt="" />
@@ -88,7 +88,7 @@ const Hero7 = () => {
                 <h2 className='text-[#1B1B1B] lg:text-[40px] font-semibold text-center'>What's on your shopping list?</h2>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-10 pl-1 mt-5'>
+            <div className='grid lg:grid-cols-3 lg:gap-0 gap-5 pl-1 mt-5'>
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={yogabra} alt="" />
                     <div className='p-3 leading-loose'>

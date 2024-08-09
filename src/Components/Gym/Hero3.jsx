@@ -25,11 +25,11 @@ const Hero3 = () => {
           </h2>
         </div>
 
-        <div className="bg-[#FFF6E6] w-fit p-3 flex items-center gap-10">
-          <h1 className="text-[#1B1B1B] text-[16px] hover:bg-[#FFA500] p-2 px-4 hover:font-semibold cursor-pointer transition ease-out duration-700">
+        <div className="bg-[#FFF6E6] w-fit p-1 flex items-center gap-10">
+          <h1 className="text-[#1B1B1B] text-[16px] bg-[#FFA500] p-3 px-4 hover:font-semibold cursor-pointer transition ease-out duration-700">
             Monthly Plan
           </h1>
-          <h2 className="text-[#1B1B1B] text-[16px] hover:bg-[#FFA500] p-2 px-4 hover:font-semibold cursor-pointer transition ease-out duration-700">
+          <h2 className="text-[#1B1B1B] text-[16px] p-2 px-4 hover:font-semibold cursor-pointer transition ease-out duration-700">
             Yearly Plan
           </h2>
         </div>

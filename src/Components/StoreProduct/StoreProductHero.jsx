@@ -90,7 +90,7 @@ const StoreProductHero = () => {
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={strappy} alt="" />
                     <div className='p-3 leading-loose'>
-                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>An exploration of a classic collection; 
+                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>An exploration of a classic collection; <br /> 
                         Strappy bras </h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦22,400</p>
@@ -115,7 +115,6 @@ const StoreProductHero = () => {
                         <img src={stars4} alt="" />
                         <p className='text-[#1B1B1B] text-[12px]'>(31 ratings)</p>
                         </div>
-                        <p className='text-[#DD900D] font-semibold text-[16px]'>12 Items left!</p> 
                     </div>
                 </div>
 
@@ -186,7 +185,7 @@ const StoreProductHero = () => {
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={classic} alt="" />
                     <div className='p-3 leading-loose'>
-                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>An exploration of a classic collection; 
+                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>An exploration of a classic collection; <br /> 
                         Strappy bras</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦22,400</p>
@@ -203,7 +202,7 @@ const StoreProductHero = () => {
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={timeless} alt="" />
                     <div className='p-3 leading-loose'>
-                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>Dark Stainless Steel Bottle Lightest and SturdiestDark Stainless Steel Bottle Lightest and Sturdiest</h1>
+                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>Dark Stainless Steel Bottle  <br />Lightest and Sturdiest</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦12,000</p>
                         <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦6,500</h2>

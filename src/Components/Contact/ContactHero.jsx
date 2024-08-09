@@ -19,7 +19,7 @@ const ContactHero = () => {
             <div className='leading-loose mt-3'>
                 <label className="text-[#1B1B1B] text-[16px] font-semibold" htmlFor="name">Your name</label>
                 <input
-                className="w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
+                className="lg:w-[600px] w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
                 placeholder="Enter your name"
                 type="text"
                 id="name"
@@ -29,7 +29,7 @@ const ContactHero = () => {
                 <div className='leading-loose'>
                 <label className="text-[#1B1B1B] text-[16px] font-semibold" htmlFor="email">Your email address</label>
                 <input
-                    className="w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
+                    className="lg:w-[600px] w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
                     placeholder="Enter your email address"
                     type="email"
                     id="email"
@@ -40,7 +40,7 @@ const ContactHero = () => {
                 <label className="text-[#1B1B1B] text-[16px] font-semibold" htmlFor="message">Your message</label>
 
                 <textarea
-                className="lg:w-[616px] lg:h-[147px] w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
+                className="lg:w-[600px] lg:h-[147px] w-full border border-[#E4E7EC] bg-[#F9FAFB66] p-3 text-sm placeholder:text-[#8D8484]"
                 placeholder="Tell us how we can help"
                 rows="8"
                 id="message"
