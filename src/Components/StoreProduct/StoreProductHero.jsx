@@ -202,7 +202,7 @@ const StoreProductHero = () => {
                 <div className='bg-[#ffffff] max-w-sm overflow-hidden border border-[#1019280D] shadow-md'>
                     <img src={timeless} alt="" />
                     <div className='p-3 leading-loose'>
-                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>Dark Stainless Steel Bottle  <br />Lightest and Sturdiest</h1>
+                        <h1 className='text-[#1B1B1B] lg:text-[16px]'>Dark Stainless Steel Bottle <br />Lightest and Sturdiest</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦12,000</p>
                         <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦6,500</h2>
