@@ -15,8 +15,10 @@ const Story = () => {
             <h1 className='text-[#1B1B1B] text-[20px] flex items-center gap-2'><img src={union} alt="" /> Our Values</h1>
         </div>
 
-        <div className='pl-20 mt-3'>
-            <h1 className='bg-[#D0D5DD] w-[1092px] h-[10px] rounded-r-full rounded-l-full'></h1>
+        <div className='pl-20 mt-3 flex items-center'>
+            <h1 className='bg-[#FFA500] w-[370px] h-[10px] rounded-r-full rounded-l-full'></h1>
+            <h1 className='bg-[#D0D5DD] w-[370px] h-[10px] rounded-r-full -ml-[1.2px]'></h1>
+            <h1 className='bg-[#D0D5DD] w-[370px] h-[10px] rounded-r-full rounded-l-full -ml-5'></h1>
         </div>
 
         <div>

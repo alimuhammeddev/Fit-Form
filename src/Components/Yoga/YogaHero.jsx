@@ -72,13 +72,13 @@ const YogaHero = () => {
                         <div className='mt-2'>
                             <div className="flex items-center space-x-4 ">
                                 <button 
-                                className="bg-[#F7F9FC] border hover:border-[#FFD68A] text-[#1B1B1B] px-4 py-2 rounded-md"
+                                className="hover:bg-[#F7F9FC] border hover:border-[#FFD68A] text-[#1B1B1B] px-4 py-2 rounded-md"
                                 onClick={decrement}                              >
                                 -
                                 </button>
                                 <span className="text-[16px]">{count}</span>
                                 <button 
-                                className="bg-[#ffffff] border border-[#FFD68A] text-[#1b1b1b] px-4 py-2 rounded-md"
+                                className="bg-[#ffffff] hover:bg-[#F7F9FC] border hover:border-[#FFD68A] text-[#1b1b1b] px-4 py-2 rounded-md"
                                 onClick={increment}
                                 >
                                 +
