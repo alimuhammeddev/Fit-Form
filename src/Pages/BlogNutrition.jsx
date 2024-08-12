@@ -14,7 +14,7 @@ const BlogNutrition = () => {
         </div>
 
         <div className={`${styles.paddingX} ${styles.flexCenter} mt-36`}>
-            <div className={`${styles.boxWidth} pl-10`}>
+            <div className={`${styles.boxWidth} lg:pl-10`}>
             <Hero6 />
             </div>
         </div>

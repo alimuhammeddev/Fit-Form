@@ -5,10 +5,10 @@ const Hero4 = () => {
   return (
     <section>
         <div>
-            <h1 className='text-[40px] font-semibold text-[#1B1B1B] text-center'>Explore Our Fitness Classes</h1>
+            <h1 className='lg:text-[40px] text-[30px] font-semibold text-[#1B1B1B] text-center'>Explore Our Fitness Classes</h1>
         </div>
 
-        <div className='grid lg:grid-cols-3 lg:-ml-5 lg:gap-0 gap-5'>
+        <div className='grid lg:grid-cols-3 lg:-ml-5 lg:gap-0 gap-5 lg:mt-0 mt-5'>
             <div className='bg-[#ffffff] max-w-sm overflow-hidden shadow-md lg:m-4'>
                 <img src={cardio} alt="" />
                 <div className='p-3'>

@@ -13,13 +13,13 @@ const Hero5 = () => {
         <h1 className='text-[#1B1B1B] font-semibold text-[40px] text-center'>Blog categories</h1>
       </div>
 
-      <div className="flex flex-wrap gap-3 gap-x-6 mt-5 pl-24">
+      <div className="flex flex-wrap gap-3 gap-x-6 mt-5 lg:pl-24">
         {days.map((day,) => (
           <React.Fragment key={day}>
             <div>
               <button
                 onClick={() => setActiveDay(day)}
-                className={`w-[240px] h-[80px] ${
+                className={`lg:w-[240px] lg:h-[80px] p-4 ${
                   activeDay === day ? 'bg-[#FFA500]' : 'bg-[#FFF6E6CC]'
                 }`}
               >
@@ -41,8 +41,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Felicia Tilman</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 1 March, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Felicia Tilman</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 1 March, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Nutrition 101: A Beginner's Guide to Healthy Eating</h1>
                     <div className='mt-5 text-right'>
@@ -61,8 +61,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Hari Haryanto </h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />28 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Hari Haryanto </h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />28 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Learn from Elizabeth John’s Fitness Journey</h1>
                     <div className='mt-5 text-right'>
@@ -80,8 +80,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Bella De Jon</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />26 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Bella De Jon</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />26 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Home Gym: Tips for Putting Your Own Workout Space</h1>
                     <div className='mt-5 text-right'>
@@ -99,8 +99,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Fatima Chidubem</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />25 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Fatima Chidubem</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />25 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Balancing Act: Prioritizing Fitness in a Busy Lifestyle</h1>
                     <div className='mt-5 text-right'>
@@ -118,8 +118,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Antonia Romero</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />20 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Antonia Romero</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />20 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>10 Essential Tips for Starting Your Fitness Journey</h1>
                     <div className='mt-5 text-right'>
@@ -137,8 +137,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Mariam Mambwe</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />12 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Mariam Mambwe</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />12 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Power of HIIT: High-Intensity Interval Training Explained</h1>
                     <div className='mt-5 text-right'>
@@ -156,8 +156,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />William Brown</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />18 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />William Brown</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />18 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Mind Over Matter: Overcoming Mental Blocks</h1>
                     <div className='mt-5 text-right'>
@@ -175,8 +175,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Camila Castro</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />18 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Camila Castro</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />18 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Fitness Myths Debunked: Separating Fact from Fiction</h1>
                     <div className='mt-5 text-right'>
@@ -194,8 +194,8 @@ const Hero5 = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Laden Shariq</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />17 February, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Laden Shariq</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" />17 February, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Nutrition 102: Some Things You Should Avoid</h1>
                     <div className='mt-5 text-right'>
@@ -204,14 +204,14 @@ const Hero5 = () => {
                 </div>
           </div>
         </div>
-        <div className='mt-10 pb-20 flex items-center gap-5 justify-center'>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={leftarrow} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={arrowright} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E89600] cursor-pointer text-[#E89600] p-4 px-6 w-fit'>1</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 px-6 w-fit'>2</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 px-6 w-fit'>3</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={arrrowleft} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={rightarrow} alt="" /></h1>  
+        <div className='mt-10 pb-20 flex items-center lg:gap-5 gap-3 justify-center'>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 w-fit'><img src={leftarrow} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 w-fit'><img src={arrowright} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E89600] cursor-pointer p-2 text-[#E89600] lg:p-4 lg:px-6 w-fit'>1</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 lg:px-6 w-fit'>2</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 lg:px-6 w-fit'>3</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 w-fit'><img src={arrrowleft} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-2 lg:p-4 w-fit'><img src={rightarrow} alt="" /></h1>  
         </div>
     </section>
   )

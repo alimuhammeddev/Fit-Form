@@ -13,8 +13,8 @@ const Classes1 = () => {
           </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44`}>
-          <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44 mt-28`}>
+          <div className={`${styles.boxWidth} lg:pl-10`}>
             <Hero4 />
           </div>
         </div>

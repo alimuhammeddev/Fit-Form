@@ -34,7 +34,7 @@ function Testimonials() {
               slides: {
                 origin: 'center',
                 perView: 5,
-                spacing: 2,
+                spacing: 10,
               },
             },
           },
@@ -70,7 +70,7 @@ function Testimonials() {
   return (
     <section>
       <div>
-        <h1 style={headingStyle} className="text-[#396BAA] md:text-[80px] text-right lg:mr-6">
+        <h1 style={headingStyle} className="text-[#396BAA] md:text-[80px] text-[35px] text-right lg:mr-6">
           Testimonials
         </h1>
       </div>
@@ -91,20 +91,18 @@ function Testimonials() {
               className={`keen-slider__slide relative ${currentSlide === index ? 'active-slide' : ''}`}
             >
               {currentSlide === index && (
-                <div className="relative">
-                <div className="absolute top-0 w-full bg-[#396BAA] text-white text-center p-10">
+                <div className="absolute w-full max-w-[400px] h-[250px] left-1/2 transform -translate-x-1/2 bg-[#396BAA] text-white text-center p-10 rounded-lg shadow-lg -mt-[200px]">
                   {testimonial.text}
                   <div className="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-t-[#396BAA] border-l-transparent border-r-transparent"></div>
                 </div>
-              </div>              
-              )} <br /><br /><br /><br /><br /><br />
-              <img src={testimonial.image} alt={`Testimonial ${testimonial.id}`} className="mx-auto w-16" />
+              )}
+              <img src={testimonial.image} alt={`Testimonial ${testimonial.id}`} className="mx-auto w-20 mt-56" />
             </div>
           ))}
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-10 mt-6"> 
+      <div className="flex items-center justify-center gap-10 mt-6">
         <button
           aria-label="Previous slide"
           id="keen-slider-previous"
@@ -120,6 +118,12 @@ function Testimonials() {
       </div>
 
       <style jsx>{`
+        .keen-slider__slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
         .active-slide .keen-slider__slide {
           position: relative;
         }

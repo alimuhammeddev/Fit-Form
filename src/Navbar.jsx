@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <div className='w-full bg-white fixed top-0 left-0 md:px-[135px] z-20'>
-            <div className='md:flex items-center bg-white py-7 md:px-10 px-2'>
+            <div className='md:flex items-center bg-white lg:py-7 py-3 md:px-10 px-2'>
                 {/* logo section */}
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
                     <span><img src={logo} alt="" /></span>

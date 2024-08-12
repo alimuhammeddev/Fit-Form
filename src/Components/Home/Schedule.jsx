@@ -11,7 +11,7 @@ const Schedule = () => {
   return (
     <section>
         <div>
-            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-left'>Schedule</h1>
+            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-[35px] text-left'>Schedule</h1>
         </div>
         <div>
             <h1 className='text-[#1B1B1B] text-[16px] text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2'>Our Schedule</h1>
@@ -34,7 +34,7 @@ const Schedule = () => {
         </div>
 
         <div className='container mx-auto mt-5 bg-[#FFFBF5] p-7'>
-            <div className='grid grid-cols-3 text-center gap-4'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 text-center gap-4'>
                 <div>
                     <h1 className='text-[#1B1B1B] text-[20px] font-semibold'>Time</h1>
                 </div>
@@ -48,7 +48,7 @@ const Schedule = () => {
         </div>
 
             <div className='container mx-auto p-7 bg-[#fffdfa]'>
-            <div className='grid grid-cols-3 text-center gap-4 border-t border-l border-r border-b border-[#FFFBF5] border'>
+            <div className='grid lg:grid-cols-3 text-center gap-4 border-t border-l border-r border-b border-[#FFFBF5] border'>
                 <div className='border-r border-b border-[#FFFBF5] p-4'>
                     <h1 className='text-[#1B1B1B] text-[20px] text-center'>05:00 - 07:00am</h1>
                 </div>

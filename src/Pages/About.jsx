@@ -21,65 +21,65 @@ const About = () => {
         </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44`}>
-        <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44 mt-28`}>
+        <div className={`${styles.boxWidth} lg:pl-10`}>
           <Hero2 />
         </div>
         </div>
 
         <div className='bg-[#0071fe] pb-5 lg:mt-12 mt-10'>
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth} pl-10`}>
+            <div className={`${styles.boxWidth} lg:pl-10`}>
             <Carousel />
             </div>
             </div>
         </div>
 
         <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-16`}>
-        <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.boxWidth} lg:pl-10`}>
           <Story />
         </div>
         </div>
 
         <div className='bg-[#0073FF08] pb-20'>
             <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-10`}>
-            <div className={`${styles.boxWidth} pl-10`}>
+            <div className={`${styles.boxWidth} lg:pl-10`}>
             <Choose />
             </div>
             </div>
         </div>
 
         <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-10`}>
-        <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.boxWidth} lg:pl-10`}>
           <Trainers2 />
         </div>
         </div>
 
-        <div className='bg-gradient-to-r from-[#0073FF08] via-[#0073FF00] to-[#0073FF12] p-10 mt-16'>
+        <div className='bg-gradient-to-r from-[#0073FF08] via-[#0073FF00] to-[#0073FF12] lg:p-10 mt-16'>
             <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-10`}>
-            <div className={`${styles.boxWidth} pl-10`}>
+            <div className={`${styles.boxWidth} lg:pl-10`}>
             <Prompt2 />
             </div>
             </div>
             <div className='flex justify-end -mt-32 mr-10'>
-            <img src={looper2} alt="" />
+            <img src={looper2} alt="" className='lg:block hidden'/>
             </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-10`}>
-        <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-10 mt-5`}>
+        <div className={`${styles.boxWidth} lg:pl-10`}>
           <Faqs />
         </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-40`}>
-        <div className={`${styles.boxWidth} pl-10`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-40 mt-20`}>
+        <div className={`${styles.boxWidth} lg:pl-10`}>
           <Find />
         </div>
         </div>
 
         <div>
-          <div className='mt-24'>
+          <div className='lg:mt-24'>
             <Footer />
           </div>
         </div>

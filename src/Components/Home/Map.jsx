@@ -14,7 +14,7 @@ const Map = () => {
             <div>
                 <img src={fullmap} alt="" className='mt-10'/>
             </div>
-            <div className='bg-[#ffffff] p-3 shadow-lg w-[463px] h-[382px] border border-[#FFF6E6] lg:mt-10'>
+            <div className='bg-[#ffffff] p-3 shadow-lg lg:w-[463px] lg:h-[382px] border border-[#FFF6E6] lg:mt-10'>
                 <div className='space-y-2'>
                     <h1 className='lg:text-[20px] font-semibold text-[#1B1B1B]'>Main Office</h1>
                     <p className='text-[14px] text-[#3E3838]'>30 Affisbi, Drioeyrm, Ikeja, Lagos State</p>

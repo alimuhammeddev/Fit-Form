@@ -11,7 +11,7 @@ const Faqs = () => {
   <div className="-my-8 mt-1">
     <details className="group py-8 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">What amenities do you offer?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">What amenities do you offer?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg
@@ -53,7 +53,7 @@ const Faqs = () => {
 
     <details className="group [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">Can I bring a guest to the gym?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">Can I bring a guest to the gym?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg
@@ -95,7 +95,7 @@ const Faqs = () => {
 
     <details className="group py-8 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">What are your operating hours?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">What are your operating hours?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg
@@ -137,7 +137,7 @@ const Faqs = () => {
 
     <details className="group [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">Is there parking available onsite?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">Is there parking available onsite?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg
@@ -179,7 +179,7 @@ const Faqs = () => {
 
     <details className="group py-8 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">Are group fitness classes included in membership?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">Are group fitness classes included in membership?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg
@@ -221,7 +221,7 @@ const Faqs = () => {
 
     <details className="group [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 className="font-medium text-[#3E3838] text-[20px]">Are there any age restrictions for membership?</h2>
+        <h2 className="font-medium text-[#3E3838] lg:text-[20px]">Are there any age restrictions for membership?</h2>
 
         <span className="relative size-5 shrink-0">
           <svg

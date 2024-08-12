@@ -8,7 +8,7 @@ const Trainers = () => {
   return (
     <section>
        <div>
-            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-right lg:mr-6'>Trainers</h1>
+            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-[35px] text-right lg:mr-6'>Trainers</h1>
         </div> 
         <div>
             <h1 className='text-[#1B1B1B] text-[16px] text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2'>Our Trainers</h1>
@@ -16,8 +16,8 @@ const Trainers = () => {
         </div>
 
         <div className='relative bg-cover bg-center'>
-            <img src={star} alt="Star" className="absolute top-0 left-0 m-4 mt-28 -ml-[100px]" />
-            <img src={star} alt="Star" className="absolute top-0 right-0 m-4 mt-28 lg:-mr-[65px]" />
+            <img src={star} alt="Star" className="absolute top-0 left-0 m-4 mt-28 -ml-[100px] lg:block hidden" />
+            <img src={star} alt="Star" className="absolute top-0 right-0 m-4 mt-28 lg:-mr-[65px] lg:block hidden" />
 
             <div className='grid lg:grid-cols-3 lg:gap-0 gap-5 lg:-ml-7'>
             <div className='bg-[#ffffff] max-w-sm overflow-hidden shadow-md lg:m-4 z-10'>
@@ -52,7 +52,7 @@ const Trainers = () => {
             </div>
         </div>
         <div className='mx-auto flex justify-center mt-5'>
-            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:h-[67px] font-semibold'>See all Trainers</button>
+            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:p-0 p-4 lg:w-[220px] lg:h-[67px] font-semibold'>See all Trainers</button>
         </div>
     </section>
   )

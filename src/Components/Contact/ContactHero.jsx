@@ -12,7 +12,7 @@ const ContactHero = () => {
             <div>
             <div>
                 <div>
-                    <h1 className='text-[#1B1B1B] text-[40px] font-semibold'>Send us a message</h1>
+                    <h1 className='text-[#1B1B1B] lg:text-[40px] text-[25px] font-semibold'>Send us a message</h1>
                     <p className='text-[#645D5D] text-[16px]'>You can’t find what you need? We can help!</p>
                 </div>
             <form action="#" className="space-y-4">
@@ -49,7 +49,7 @@ const ContactHero = () => {
 
             <div className="mt-4">
                 <div className='mt-5'>
-                    <button className='text-[#1B1B1B] text-[20px] font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Submit</button>
+                    <button className='text-[#1B1B1B] text-[20px] p-2 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Submit</button>
                 </div>
             </div>
             </form>
@@ -68,7 +68,7 @@ const ContactHero = () => {
             <div>
                 <img src={fullmap} alt="" className='mt-10'/>
             </div>
-            <div className='bg-[#ffffff] p-3 shadow-lg w-[463px] h-[382px] border border-[#FFF6E6] lg:mt-10'>
+            <div className='bg-[#ffffff] p-3 shadow-lg lg:w-[463px] lg:h-[382px] border border-[#FFF6E6] lg:mt-10'>
                 <div className='space-y-2'>
                     <h1 className='lg:text-[20px] font-semibold text-[#1B1B1B]'>Main Office</h1>
                     <p className='text-[14px] text-[#3E3838]'>30 Affisbi, Drioeyrm, Ikeja, Lagos State</p>

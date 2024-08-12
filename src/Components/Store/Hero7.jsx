@@ -7,12 +7,12 @@ const Hero7 = () => {
     <section>
         <div className="relative">
             <img src={storehero} alt="" className="w-fit" />
-            <div className="absolute inset-0 bg-[#000B194D] opacity-100 w-[1210px]"></div>
-            <div className="absolute inset-0 items-center justify-center mt-44">
-                <h1 className="text-[#ffffff] text-center text-[40px] font-semibold">Elevate your fitness style by shopping <br className='lg:block hidden'/> from us!</h1>
-                <p className='text-[#ffffff] text-center text-[20px]'>Our stylish wears ensures you look and feel your best, whether you're hitting <br /> the gym or breaking a sweat at home. Shop now and unleash your potential!</p>
-                <div className='mt-5 justify-center mx-auto flex'>
-                    <button className='text-[#1B1B1B] text-[20px] font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Shop Now</button>
+            <div className="absolute inset-0 bg-[#000B194D] opacity-100 lg:w-[1210px]"></div>
+            <div className="absolute inset-0 items-center justify-center lg:mt-44 mt-3">
+                <h1 className="text-[#ffffff] text-center lg:text-[40px] text-[13px] font-semibold">Elevate your fitness style by shopping <br className='lg:block hidden'/> from us!</h1>
+                <p className='text-[#ffffff] text-center lg;text-[20px] text-[13px]'>Our stylish wears ensures you look and feel your best, whether you're hitting <br /> the gym or breaking a sweat at home. Shop now and unleash your potential!</p>
+                <div className='lg:mt-5 mt-1 justify-center mx-auto flex'>
+                    <button className='text-[#1B1B1B] lg:text-[20px] p-1 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Shop Now</button>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@ const Hero7 = () => {
             </div>
             <div>
             <div className='mt-10 justify-center mx-auto flex'>
-                <button className='text-[#1B1B1B] text-[20px] font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>See All</button>
+                <button className='text-[#1B1B1B] lg:text-[20px] p-2 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>See All</button>
             </div>
             </div>
         </div>
@@ -136,7 +136,7 @@ const Hero7 = () => {
             </div>
             <div>
             <div className='mt-10 justify-center mx-auto flex'>
-                <button className='text-[#1B1B1B] text-[20px] font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>See All</button>
+                <button className='text-[#1B1B1B] lg:text-[20px] p-2 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>See All</button>
             </div>
             </div>
         </div>

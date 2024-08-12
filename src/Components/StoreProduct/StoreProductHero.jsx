@@ -6,18 +6,18 @@ const StoreProductHero = () => {
     <section>
         <div>
             <h1 className='text-[#514A4A] text-center text-[14px]'>Home - Store - Product</h1>
-            <h2 className='font-semibold text-[40px] text-[#1B1B1B] text-center'>Shop Now!!!</h2>
+            <h2 className='font-semibold lg:text-[40px] text-[25px] text-[#1B1B1B] text-center'>Shop Now!!!</h2>
         </div>
 
-        <div className='flex items-center gap-4 mt-10'>
-            <h1 className='flex items-center gap-1 bg-[#FFD68A] border border-[#FFC354] w-[154px] h-[55px] justify-center'>Filters <img src={preference} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[163px] h-[55px] justify-center'>Categories <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[174px] h-[55px] justify-center'>Price Range <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[101px] h-[55px] justify-center'>Size <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[114px] h-[55px] justify-center'>Color <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[133px] h-[55px] justify-center'>Ratings <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[107px] h-[55px] justify-center'>Tag <img src={arrowdown} alt="" /></h1>
-            <h1 className='flex items-center gap-1 border border-[#FFC354] w-[166px] h-[55px] justify-center'>Collections <img src={arrowdown} alt="" /></h1>
+        <div className='lg:flex items-center gap-4 lg:space-y-0 space-y-2 mt-10'>
+            <h1 className='flex items-center gap-1 bg-[#FFD68A] border border-[#FFC354] w-fit p-2 lg:w-[154px] lg:h-[55px] lg:justify-center'>Filters <img src={preference} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[163px] lg:h-[55px] lg:justify-center'>Categories <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[174px] lg:h-[55px] lg:justify-center'>Price Range <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[101px] lg:h-[55px] lg:justify-center'>Size <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[114px] lg:h-[55px] lg:justify-center'>Color <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[133px] lg:h-[55px] lg:justify-center'>Ratings <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[107px] lg:h-[55px] lg:justify-center'>Tag <img src={arrowdown} alt="" /></h1>
+            <h1 className='flex items-center gap-1 border border-[#FFC354] w-fit p-2 lg:w-[166px] lg:h-[55px] lg:justify-center'>Collections <img src={arrowdown} alt="" /></h1>
         </div>
 
         <div className='grid lg:grid-cols-3 mt-10 gap-7'>
@@ -216,14 +216,14 @@ const StoreProductHero = () => {
                 </div>
         </div>
 
-        <div className='mt-12 pb-20 flex items-center gap-5 justify-center'>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={leftarrow} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={arrowright} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E89600] cursor-pointer text-[#E89600] p-4 px-6 w-fit'>1</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 px-6 w-fit'>2</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 px-6 w-fit'>3</h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={arrrowleft} alt="" /></h1>
-          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] cursor-pointer p-4 w-fit'><img src={rightarrow} alt="" /></h1>  
+        <div className='mt-12 pb-20 flex items-center lg:gap-5 gap-2 justify-center'>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg:p-4 w-fit'><img src={leftarrow} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg;p-4 w-fit'><img src={arrowright} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E89600] p-3 cursor-pointer text-[#E89600] lg:p-4 lg:px-6 w-fit'>1</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg:p-4 lg:px-6 w-fit'>2</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg:p-4 lg:px-6 w-fit'>3</h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg:p-4 w-fit'><img src={arrrowleft} alt="" /></h1>
+          <h1 className='bg-[#F9FAFB] border border-[#E4E7EC] p-3 cursor-pointer lg:p-4 w-fit'><img src={rightarrow} alt="" /></h1>  
         </div>
     </section>
   );

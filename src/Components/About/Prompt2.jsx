@@ -3,7 +3,7 @@ import { alarmclock2, dedicate, looper2, playcircle } from '../../assets'
 
 const Prompt2 = () => {
   return (
-    <section className='pb-10'>
+    <section className='lg:pb-10 pb-36'>
         <div className='grid lg:grid-cols-2 lg:gap-0 gap-5'>
             <div className='mt-10'>
                 <h1 className='text-[#1B1B1B] text-[16px] font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2'>Ready to transform?</h1>

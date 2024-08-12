@@ -19,7 +19,7 @@ const Blog = () => {
 
         <div className='grid lg:grid-cols-4 grid-cols-1 lg:gap-0 gap-5 lg:-ml-[430px] lg:mt-0 mt-5'>
         <div>
-            <h1 style={headingStyle} className="text-[#396BAA] md:text-[62px] text-right lg:-mt-40">
+            <h1 style={headingStyle} className="text-[#396BAA] md:text-[62px] text-[30px] text-right lg:-mt-40">
                 J <br /> o <br />i <br /> n <br /> <br /><span>U <br /> s </span>           
             </h1>
         </div>
@@ -32,8 +32,8 @@ const Blog = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Felicia Tilman</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 1 March, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Felicia Tilman</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 1 March, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Nutrition 101: A Beginner's Guide to Healthy Eating</h1>
                     <div className='mt-5 text-right'>
@@ -50,8 +50,8 @@ const Blog = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Antonia Romero</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 5 March, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Antonia Romero</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 5 March, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>10 Essential Tips for Starting Your Fitness Journey</h1>
                     <div className='mt-5 text-right'>
@@ -68,8 +68,8 @@ const Blog = () => {
                 </div>
                 <div className='p-3'>
                     <div className='flex items-center gap-7'>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Mariam Mambwe</h1>
-                        <h1 className='flex items-center text-[14px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 7 March, 2024</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={pentool} alt="" />Mariam Mambwe</h1>
+                        <h1 className='flex items-center lg:text-[14px] text-[12px] text-[#8D8484] gap-[3px]'><img src={calendar} alt="" /> 7 March, 2024</h1>
                     </div>
                     <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold mt-2'>Power of HIIT: High-Intensity Interval Training Explained</h1>
                     <div className='mt-5 text-right'>
@@ -79,7 +79,7 @@ const Blog = () => {
             </div>
         </div>
         <div className='mx-auto flex justify-center mt-5'>
-            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:h-[67px] font-semibold'>All Blogs</button>
+            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] p-3 lg:w-[220px] lg:h-[67px] font-semibold'>All Blogs</button>
         </div>
     </section>
   )

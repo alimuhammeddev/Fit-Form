@@ -16,24 +16,24 @@ const YogaHero = () => {
             <h2 className='font-semibold text-[40px] text-[#1B1B1B] text-center'>Product</h2>
         </div>
 
-        <div className=' flex lg:flex-row gap-7 mt-10'>
+        <div className=' flex lg:flex-row flex-col gap-7 mt-10'>
             <div>
                 <img src={girl} alt="" className='w-full'/>
-                <div className='flex items-center gap-[15px] mt-7'>
-                    <img src={girl1} alt=""/>
-                    <img src={girl2} alt=""/>
-                    <img src={girl3} alt=""/>
-                    <img src={girl2} alt=""/>
-                    <img src={girl1} alt=""/>
-                    <img src={girl3} alt=""/>
-                    <img src={girl2} alt=""/>
+                <div className='flex items-center lg:gap-[15px] gap-1 mt-7'>
+                    <img src={girl1} alt="" className='lg:w-full w-10'/>
+                    <img src={girl2} alt="" className='lg:w-full w-10'/>
+                    <img src={girl3} alt="" className='lg:w-full w-10'/>
+                    <img src={girl2} alt="" className='lg:w-full w-10'/>
+                    <img src={girl1} alt="" className='lg:w-full w-10'/>
+                    <img src={girl3} alt="" className='lg:w-full w-10'/>
+                    <img src={girl2} alt="" className='lg:w-full w-10'/>
                 </div>
             </div>
 
             <div className='leading-loose'>
                 <div>
                     <h1 className='text-[#645D5D] text-[12px]'>Product ID: RT358310PF</h1>
-                    <h2 className='text-[#1B1B1B] text-[24px]'>Yoga Outfits 2 Piece Workout Crop Top with <br /> High Waist Running Shorts</h2>
+                    <h2 className='text-[#1B1B1B] lg:text-[24px]'>Yoga Outfits 2 Piece Workout Crop Top with <br /> High Waist Running Shorts</h2>
                     <div className='flex items-center gap-3'>
                     <p className='text-[#787070] text-[14px] line-through'>₦18,000</p>
                     <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦15,500</h2>
@@ -49,10 +49,10 @@ const YogaHero = () => {
                 <div>
                     <h1 className='font-semibold text-[12px] text-[#1B1B1B]'>Colors</h1>
                     <div className='flex items-center gap-2'>
-                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center gap-3 bg-[#FFF6E6] w-[84px] h-[36px] border border-[#FFA500] p-1'><img src={smallyoga} alt="" /> Pink</h1>
-                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center gap-3 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> Black</h1>
-                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center gap-3 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> Red</h1>
-                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center gap-3 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> White</h1>
+                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center lg:gap-3 gap-1 bg-[#FFF6E6] w-[84px] h-[36px] border border-[#FFA500] p-1'><img src={smallyoga} alt="" /> Pink</h1>
+                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center lg:gap-3 gap-1 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> Black</h1>
+                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center lg:gap-3 gap-1 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> Red</h1>
+                        <h1 className='text-[12px] text-[#1B1B1B] flex items-center lg:gap-3 gap-1 bg-[#FFFFFF] w-[84px] h-[36px] border border-[#B7AFAF] p-1'><img src={smallyoga} alt="" /> White</h1>
                     </div>
 
                     <div className='flex justify-between mt-3'>
@@ -86,8 +86,8 @@ const YogaHero = () => {
                             </div>
                         </div>
                             <div className='text-[16px] mt-3'>
-                                <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold'>Add to Cart - ₦15,500</button> <br />
-                                <button className='text-[#FFA500] text-[16px] border border-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold mt-5'>Buy Now</button>
+                                <button className='text-[#1B1B1B] p-2 text-[16px] bg-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold'>Add to Cart - ₦15,500</button> <br />
+                                <button className='text-[#FFA500] p-2 text-[16px] border border-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold mt-5'>Buy Now</button>
                             </div>   
                     </div>
 
@@ -106,19 +106,19 @@ const YogaHero = () => {
                 <div>
                     <h1 className='text-[14px] text-[#E89600] flex items-center gap-2 justify-end'>See more <img src={goldarrow} alt="" /></h1>
                     <div>
-                        <h1 className='text-[16px] text-[#3E3838] flex items-center gap-3'><img src={truck} alt="" /> 2-3 days for delivery</h1>
-                        <h1 className='text-[16px] text-[#3E3838] flex items-center gap-3'><img src={return1} alt="" className='-mt-7'/> Eligible for return within 14 days, 100% money refund <br /> guarantted</h1>
-                        <h1 className='text-[16px] text-[#3E3838] flex items-center gap-3'><img src={call} alt="" /> access support at: <span className='text-[#396BAA] underline decoration-[#396BAA]'>fitform@gmail.com</span></h1>
+                        <h1 className='lg:text-[16px] text-[12px] text-[#3E3838] flex items-center gap-3'><img src={truck} alt="" /> 2-3 days for delivery</h1>
+                        <h1 className='lg:text-[16px] text-[12px] text-[#3E3838] flex items-center gap-3'><img src={return1} alt="" className='lg:-mt-7 -mt-11'/> Eligible for return within 14 days, 100% money refund <br /> guarantted</h1>
+                        <h1 className='lg:text-[16px] text-[12px] text-[#3E3838] flex items-center gap-3'><img src={call} alt="" /> access support at: <span className='text-[#396BAA] underline decoration-[#396BAA]'>fitform@gmail.com</span></h1>
                     </div>
                 </div>
             </div>
         </div>
 
         <div>
-            <div className='flex items-center justify-between'>
-                <h1 className='text-[#1b1b1b] text-[40px] font-semibold'>Similar Products</h1>
+            <div className='flex items-center justify-between lg:mt-0 mt-5'>
+                <h1 className='text-[#1b1b1b] lg:text-[40px] font-semibold'>Similar Products</h1>
                 <Link to="/store-product">
-                    <h2 className='text-[#E89600] text-[20px] font-semibold mr-8'>See all</h2>
+                    <h2 className='text-[#E89600] lg:text-[20px] font-semibold mr-8'>See all</h2>
                 </Link>
             </div>
 

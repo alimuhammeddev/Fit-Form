@@ -8,7 +8,7 @@ const Classes = () => {
   return (
     <section className='bg-[#ffffff] w-full relative'>
         <div>
-            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px]'>Classes</h1>
+            <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-[35px]'>Classes</h1>
         </div>
         <div>
             <h1 className='text-[#1B1B1B] text-[16px] text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2'>Our Classes</h1>
@@ -86,7 +86,7 @@ const Classes = () => {
             <img src={looper} alt="" />
         </div>
         <div className='mx-auto flex justify-center -mt-28'>
-            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:h-[67px] font-semibold'>See all</button>
+            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:p-0 p-3 lg:px-0 px-10 lg:h-[67px] font-semibold'>See all</button>
         </div>
     </section>
   )
