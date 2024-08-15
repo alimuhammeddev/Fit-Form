@@ -48,7 +48,7 @@ const Schedule = () => {
         </div>
 
             <div className='container mx-auto p-7 bg-[#fffdfa]'>
-            <div className='grid lg:grid-cols-3 text-center gap-4 border-t border-l border-r border-b border-[#FFFBF5] border'>
+            <div className='grid lg:grid-cols-3 text-center items-center gap-4 border-t border-l border-r border-b border-[#FFFBF5] border'>
                 <div className='border-r border-b border-[#FFFBF5] p-4'>
                     <h1 className='text-[#1B1B1B] text-[20px] text-center'>05:00 - 07:00am</h1>
                 </div>

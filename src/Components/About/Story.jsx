@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { diarybook, equipmentsgym, union, vision } from '../../assets'
 
-const Story = () => {
+function Story () {
+    const [activeTab, setActiveTab] = useState('story'); // Initialize activeTab with 'story'
+
+    const tabWidths = {
+        story: '0%',    // Starting position for "Our Story"
+        vision: '30%', // Starting position for "Our Vision"
+        values: '61%'  // Starting position for "Our Values"
+    };
   return (
     <section>
         <div>
@@ -9,19 +16,48 @@ const Story = () => {
             <h2 className='text-[#1B1B1B] lg:text-[40px] font-semibold text-center'>The driving force behind US</h2>
         </div>
 
-        <div className='flex items-center justify-items-center lg:justify-center lg:gap-48 gap-1 lg:px-20 mt-5'>
-            <h1 className='text-[#8C5B00] lg:text-[20px] text-[12px] flex items-center gap-2'><img src={diarybook} alt="" /> Our Story</h1>
-            <h1 className='text-[#1B1B1B] lg:text-[20px] text-[12px] flex items-center gap-2'><img src={vision} alt="" /> Our Visions</h1>
-            <h1 className='text-[#1B1B1B] lg:text-[20px] text-[12px] flex items-center gap-2'><img src={union} alt="" /> Our Values</h1>
-        </div>
-
-        <div className='lg:pl-20 mt-3 flex items-center'>
-            <h1 className='bg-[#FFA500] w-[370px] h-[10px] rounded-r-full rounded-l-full'></h1>
-            <h1 className='bg-[#D0D5DD] w-[370px] h-[10px] rounded-r-full -ml-[1.2px]'></h1>
-            <h1 className='bg-[#D0D5DD] w-[370px] h-[10px] rounded-r-full rounded-l-full -ml-5'></h1>
-        </div>
-
+    <div>
         <div>
+            {/* Tab Headers */}
+            <div className='flex items-center justify-items-center lg:justify-center justify-center gap-5 lg:gap-48 lg:px-20 mt-5'>
+        <h1 
+          className={`cursor-pointer lg:text-[20px] text-[12px] flex items-center gap-2 ${activeTab === 'story' ? 'text-[#8C5B00]' : 'text-[#1B1B1B]'}`} 
+          onClick={() => setActiveTab('story')}
+        >
+          <img src={diarybook} alt="" /> Our Story
+        </h1>
+        <h1 
+          className={`cursor-pointer lg:text-[20px] text-[12px] flex items-center gap-2 ${activeTab === 'vision' ? 'text-[#8C5B00]' : 'text-[#1B1B1B]'}`} 
+          onClick={() => setActiveTab('vision')}
+        >
+          <img src={vision} alt="" /> Our Vision
+        </h1>
+        <h1 
+          className={`cursor-pointer lg:text-[20px] text-[12px] flex items-center gap-2 ${activeTab === 'values' ? 'text-[#8C5B00]' : 'text-[#1B1B1B]'}`} 
+          onClick={() => setActiveTab('values')}
+        >
+          <img src={union} alt="" /> Our Values
+        </h1>
+      </div>
+
+      {/* Tab Indicator */}
+        <div className='lg:pl-20 mt-3 flex items-center'>
+            <div className='relative w-full'>
+            {/* Static background */}
+            <div className='absolute lg:w-[1092px] w-[290px] h-[10px] bg-[#D0D5DD] rounded-r-full rounded-l-full'></div>
+            {/* Moving tab background */}
+            <div 
+                className='absolute h-[10px] bg-[#FFA500] rounded-r-full rounded-l-full transition-all duration-500' 
+                style={{
+                width: '33.33%', 
+                left: tabWidths[activeTab]
+                }}
+            ></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
         <div className='grid lg:grid-cols-2 mt-10 mb-10'>
             <img src={equipmentsgym} alt="" className='lg:pl-20'/>
             <div>
