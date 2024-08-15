@@ -5,9 +5,9 @@ const Map = () => {
   return (
     <section>
         <div className='inline-flex items-center gap-5 border border-[#CDC4C4] w-fit p-2'>
-            <h1 className='text-[#1B1B1B] text-[20px] font-semibold'>Map</h1>
+            <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>Map</h1>
             <div className='w-px h-7 bg-[#FBF1F1]'></div>
-            <h1 className='text-[#98A2B3] text-[20px]'>satelite</h1>
+            <h1 className='text-[#98A2B3] lg:text-[20px]'>satelite</h1>
         </div>
 
         <div className='flex items-center lg:flex-row flex-col lg:gap-5 gap-5'>

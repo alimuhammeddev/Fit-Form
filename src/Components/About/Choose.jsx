@@ -4,7 +4,7 @@ import { communitygroup, dumbbellgym, lottery, vcard } from '../../assets'
 const Choose = () => {
   return (
     <section>
-        <div>
+        <div className='lg:mt-0 mt-5'>
             <h1 className='text-[#1B1B1B] text-[16px] text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2'>Why Choose US?</h1>
             <h2 className='text-[#1B1B1B] lg:text-[40px] font-semibold text-center'>Benefits of joining US</h2>
         </div>

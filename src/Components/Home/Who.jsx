@@ -30,7 +30,7 @@ const Who = () => {
                 </div>
                 <p className='text-[16px] leading-7 mt-2 lg:text-left text-justify'>At <span className='font-semibold'>FITFORM</span>, we are more than just a gym. We are your dedicated partner <br className='lg:block hidden'/> in achieving your fitness goals and enhancing your well-being. <br className='lg:block hidden'/> Our state-of-the-art facility offers a holistic approach to fitness that goes <br className='lg:block hidden'/> beyond traditional workouts. <br className='lg:block hidden'/>
                 Driven by our mission to inspire, educate, and support our members, we <br className='lg:block hidden'/> provide a diverse range of fitness programs and amenities tailored to <br className='lg:block hidden'/> meet your unique needs. </p>
-                <button className='text-[#1B1B1B] lg:w-[220px] lg:h-[67px] p-2 rounded-sm text-[20px] font-semibold bg-[#FFA500] mt-4'>Our Story</button>
+                <button className='text-[#1B1B1B] lg:w-[220px] lg:h-[67px] p-2 rounded-sm lg:text-[20px] font-semibold bg-[#FFA500] mt-4'>Our Story</button>
             </div>
           </div>
         </div>

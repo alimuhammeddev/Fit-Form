@@ -82,11 +82,11 @@ const Classes = () => {
                 </div>
             </div>
         </div>
-        <div className='absolut bottom-0 left-0 -mt-40 -ml-28'>
+        <div className='absolut bottom-0 left-0 -mt-40 -ml-28 lg:block hidden'>
             <img src={looper} alt="" />
         </div>
-        <div className='mx-auto flex justify-center -mt-28'>
-            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:p-0 p-3 lg:px-0 px-10 lg:h-[67px] font-semibold'>See all</button>
+        <div className='mx-auto flex justify-center mt-10'>
+            <button className='text-[#1B1B1B] text-[16px] bg-[#FFA500] lg:w-[220px] lg:p-0 p-3 lg:px-0 px-7 lg:h-[67px] font-semibold'>See all</button>
         </div>
     </section>
   )

@@ -19,7 +19,7 @@ const Hero5 = () => {
             <div>
               <button
                 onClick={() => setActiveDay(day)}
-                className={`lg:w-[240px] lg:h-[80px] p-4 ${
+                className={`lg:w-[240px] w-[140px] lg:h-[80px] p-4 ${
                   activeDay === day ? 'bg-[#FFA500]' : 'bg-[#FFF6E6CC]'
                 }`}
               >

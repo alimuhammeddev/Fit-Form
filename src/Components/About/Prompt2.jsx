@@ -16,12 +16,12 @@ const Prompt2 = () => {
             </div>
             <div>
                 <div className='relative pr-6'>
-                    <img src={dedicate} alt="" />
+                    <img src={dedicate} alt=""/>
                     <div className='absolute top-0 left-0 m-2 text-white bg-[#1B1B1B26] rounded-full backdrop-blur-md'>
                         <h1 className='text-[#ffffff] text-[16px] flex items-center gap-1 p-1'><img src={alarmclock2} alt="" /> 01:20</h1>
                     </div>
                     <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white'>
-                        <img src={playcircle} alt="" />
+                        <img src={playcircle} alt=""/>
                     </div>
                 </div>
             </div>

@@ -4,8 +4,8 @@ import { burstpucker2, nathan, rating, sharon, shola, tachaemu } from '../../ass
 const Trainers2 = () => {
   return (
     <section>
-        <div>
-            <h1 className='text-[#1B1B1B] text-[16px] text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2 flex items-center mx-auto justify-center lg:gap-10 lg:pl-28'>Our Trainers <img src={burstpucker2} alt="" className='w-10'/></h1>
+        <div className='lg:mt-0 mt-5'>
+            <h1 className='text-[#1B1B1B] text-[16px] gap-5 text-center font-semibold underline underline-offset-4 decoration-[#0071FE] decoration-2 flex items-center mx-auto justify-center lg:gap-10 lg:pl-28'>Our Trainers <img src={burstpucker2} alt="" className='w-10'/></h1>
             <h2 className='text-[#1B1B1B] lg:text-[40px] font-semibold text-center'>Selected for YOU...</h2>
         </div>
 

@@ -33,7 +33,7 @@ const YogaHero = () => {
             <div className='leading-loose'>
                 <div>
                     <h1 className='text-[#645D5D] text-[12px]'>Product ID: RT358310PF</h1>
-                    <h2 className='text-[#1B1B1B] lg:text-[24px]'>Yoga Outfits 2 Piece Workout Crop Top with <br /> High Waist Running Shorts</h2>
+                    <h2 className='text-[#1B1B1B] lg:text-[24px]'>Yoga Outfits 2 Piece Workout Crop Top with <br className='lg:block hidden'/> High Waist Running Shorts</h2>
                     <div className='flex items-center gap-3'>
                     <p className='text-[#787070] text-[14px] line-through'>₦18,000</p>
                     <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦15,500</h2>
@@ -87,7 +87,7 @@ const YogaHero = () => {
                         </div>
                             <div className='text-[16px] mt-3'>
                                 <button className='text-[#1B1B1B] p-2 text-[16px] bg-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold'>Add to Cart - ₦15,500</button> <br />
-                                <button className='text-[#FFA500] p-2 text-[16px] border border-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold mt-5'>Buy Now</button>
+                                <button className='text-[#FFA500] p-2 text-[16px] border border-[#FFA500] lg:w-[360px] lg:h-[47px] font-semibold mt-5 px-[53px]'>Buy Now</button>
                             </div>   
                     </div>
 
@@ -97,8 +97,8 @@ const YogaHero = () => {
                         <h1 className='w-[253px] h-[42px] font-semibold text-[16px] text-[#1B1B1B] bg-[#FFF6E680] p-2 text-center'>Reviews</h1>
                         </div>
                         <div className='mt-1'>
-                            <h1 className='text-[14px] text-[#3E3838]'>Elevate your yoga practice with our stylish and comfortable yoga outfit, <br /> designed to enhance your performance and inspire confidence on the mat. <br /> Crafted from premium materials with a focus on both functionality and <br /> fashion, this outfit is perfect for yogis of all levels.</h1>
-                            <h2 className='text-[14px] text-[#3E3838]'><span className='font-semibold text-[#1b1b1b]'>Crop Top:</span> Our lightweight and breathable yoga top features a flattering <br /> silhouette and moisture-wicking fabric to keep you cool and dry during even <br /> the most intense yoga sessions. With its four-way stretch construction and <br /> seamless design, this top provides maximum freedom of movement and a <br /> comfortable fit that moves with your body</h2>
+                            <h1 className='text-[14px] text-[#3E3838]'>Elevate your yoga practice with our stylish and comfortable yoga outfit, <br className='lg:block hidden'/> designed to enhance your performance and inspire confidence on the mat. <br className='lg:block hidden'/> Crafted from premium materials with a focus on both functionality and <br className='lg:block hidden'/> fashion, this outfit is perfect for yogis of all levels.</h1>
+                            <h2 className='text-[14px] text-[#3E3838]'><span className='font-semibold text-[#1b1b1b]'>Crop Top:</span> Our lightweight and breathable yoga top features a flattering <br className='lg:block hidden'/> silhouette and moisture-wicking fabric to keep you cool and dry during even <br className='lg:block hidden'/> the most intense yoga sessions. With its four-way stretch construction and <br className='lg:block hidden'/> seamless design, this top provides maximum freedom of movement and a <br className='lg:block hidden'/> comfortable fit that moves with your body</h2>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ const YogaHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>One Shoulder Yoga Bra Cutout Straps Athletic Sports Running Top</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦10,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦5,800</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦5,800</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />
@@ -145,7 +145,7 @@ const YogaHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Solid Sleeveless Drawstring Armhole Branded T-Shirt for Men</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦25,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦18,200</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦18,200</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -160,7 +160,7 @@ const YogaHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Shoes Striped Fashion Women Sports Running Sneakers Breathable Shoes</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦35,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦24,000</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦24,000</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />

@@ -9,7 +9,7 @@ const Schedule = () => {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
   return (
-    <section>
+    <section className='lg:block hidden'>
         <div>
             <h1 style={headingStyle} className='text-[#396BAA] md:text-[80px] text-[35px] text-left'>Schedule</h1>
         </div>

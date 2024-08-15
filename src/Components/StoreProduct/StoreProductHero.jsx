@@ -29,7 +29,7 @@ const StoreProductHero = () => {
                         104.78 Kilograms Horizon Fitness T202</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦125,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦108,400</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦108,400</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -45,7 +45,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Small Waterproof Sports Gym Bag, with Shoes Compartment and Wet Pocket - Purple</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦10,500</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦9,560</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦9,560</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -62,7 +62,7 @@ const StoreProductHero = () => {
                         - 9.5 / Black</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦99,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦52,000</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦52,000</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />
@@ -78,7 +78,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>One Shoulder Yoga Bra Cutout Straps Athletic Sports Running Top</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦10,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦5,800</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦5,800</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />
@@ -94,7 +94,7 @@ const StoreProductHero = () => {
                         Strappy bras </h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦22,400</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦15,280</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦15,280</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -109,7 +109,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Shoes Striped Fashion Women Sports Running Sneakers Breathable Shoes</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦35,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦24,000</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦24,000</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />
@@ -124,7 +124,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Solid Sleeveless Drawstring Armhole Branded T-Shirt for Men</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦25,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦18,200</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦18,200</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -140,7 +140,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Solid Sleeveless Drawstring Armhole Branded T-Shirt for Men</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦25,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦18,200</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦18,200</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -156,7 +156,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Tank Top Outdoor Running Quick Drying Sports Bra - Gray</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦24,600</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦14,000</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦14,000</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />
@@ -172,7 +172,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Solid Sleeveless Drawstring Armhole Branded T-Shirt for Men</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦25,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦18,200</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦18,200</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -189,7 +189,7 @@ const StoreProductHero = () => {
                         Strappy bras</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦22,400</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦15,820</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦15,820</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={rating} alt="" />
@@ -205,7 +205,7 @@ const StoreProductHero = () => {
                         <h1 className='text-[#1B1B1B] lg:text-[16px]'>Dark Stainless Steel Bottle <br />Lightest and Sturdiest</h1>
                         <div className='flex items-center gap-3'>
                         <p className='text-[#787070] text-[12px] line-through'>₦12,000</p>
-                        <h2 className='text-[#1B1B1B] text-[20px] font-semibold'>₦6,500</h2>
+                        <h2 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>₦6,500</h2>
                         </div>
                         <div className='flex items-center gap-2'>
                         <img src={stars4} alt="" />

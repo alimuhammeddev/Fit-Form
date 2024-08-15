@@ -11,8 +11,8 @@ const ContactHero = () => {
 
             <div>
             <div>
-                <div>
-                    <h1 className='text-[#1B1B1B] lg:text-[40px] text-[25px] font-semibold'>Send us a message</h1>
+                <div className='lg:mt-0 mt-3'>
+                    <h1 className='text-[#1B1B1B] lg:text-[40px] text-[20px] font-semibold'>Send us a message</h1>
                     <p className='text-[#645D5D] text-[16px]'>You can’t find what you need? We can help!</p>
                 </div>
             <form action="#" className="space-y-4">
@@ -49,7 +49,7 @@ const ContactHero = () => {
 
             <div className="mt-4">
                 <div className='mt-5'>
-                    <button className='text-[#1B1B1B] text-[20px] p-2 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Submit</button>
+                    <button className='text-[#1B1B1B] text-[20px] p-2 lg:px-0 px-7 font-medium rounded-sm lg:w-[220px] lg:h-[67px] bg-[#FFA500]'>Submit</button>
                 </div>
             </div>
             </form>
@@ -59,9 +59,9 @@ const ContactHero = () => {
 
         <div className='mt-24'>
         <div className='inline-flex items-center gap-5 border rounded-lg border-[#CDC4C4] w-fit p-2'>
-            <h1 className='text-[#1B1B1B] text-[20px] font-semibold'>Map</h1>
+            <h1 className='text-[#1B1B1B] lg:text-[20px] font-semibold'>Map</h1>
             <div className='w-px h-7 bg-[#FBF1F1]'></div>
-            <h1 className='text-[#98A2B3] text-[20px]'>satelite</h1>
+            <h1 className='text-[#98A2B3] lg:text-[20px]'>satelite</h1>
         </div>
 
         <div className='flex items-center lg:flex-row flex-col lg:gap-5 gap-5 -mt-7'>
