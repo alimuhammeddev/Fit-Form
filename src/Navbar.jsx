@@ -30,7 +30,7 @@ const Navbar = () => {
                     {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
                 </div>
                 {/* link items */}
-                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-24 pl-9 transition-all duration-500 ease-in gap-5 justify-center mx-auto ${open ? 'top-20' : 'top-[-490px]'}`}>
+                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-24 pl-0 transition-all duration-500 ease-in gap-5 justify-center mx-auto ${open ? 'top-20' : 'top-[-490px]'}`}>
                     {Links.map((link, index) => (
                         <li key={index} className='md:ml-5 md:my-0 my-7 flex flex-col items-center'>
                             <Link 
