@@ -10,7 +10,7 @@ const Hero5 = () => {
   return (
     <section>
       <div>
-        <h1 className='text-[#1B1B1B] font-semibold text-[40px] text-center'>Blog categories</h1>
+        <h1 className='text-[#1B1B1B] font-semibold lg:text-[40px] text-[20px] text-center'>Blog categories</h1>
       </div>
 
       <div className="flex flex-wrap gap-3 gap-x-6 mt-5 lg:pl-24">

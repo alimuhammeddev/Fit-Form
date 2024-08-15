@@ -13,7 +13,7 @@ const Gym = () => {
         </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} mt-32`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-32 mt-24`}>
         <div className={`${styles.boxWidth}`}>
           <Hero3 />
         </div>

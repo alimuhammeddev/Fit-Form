@@ -12,7 +12,7 @@ const Hero = () => {
         width: '100%',
         height: '100%',
     }}>
-        <div className='mx-auto relative md:mt-36 mt-32 pb-10 max-w-screen-xl'>
+        <div className='mx-auto relative md:mt-36 mt-24 pb-10 max-w-screen-xl'>
             <img src={hero} alt=""/>
             <div className="absolute inset-y-0 left-0 flex items-center justify-start">
                 <div className="text-left  lg:ml-10 px-5 -mt-10">

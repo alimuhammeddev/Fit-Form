@@ -21,7 +21,7 @@ const About = () => {
         </div>
         </div>
 
-        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44 mt-28`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-44 mt-24`}>
         <div className={`${styles.boxWidth} lg:pl-10`}>
           <Hero2 />
         </div>

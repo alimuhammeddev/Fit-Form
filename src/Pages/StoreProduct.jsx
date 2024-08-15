@@ -13,7 +13,7 @@ const StoreProduct = () => {
         </div>
         </div>
 
-      <div className={`${styles.paddingX} ${styles.flexCenter} mt-40`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} lg:mt-40 mt-24`}>
         <div className={`${styles.boxWidth} lg:pl-10`}>
           <StoreProductHero />
         </div>
