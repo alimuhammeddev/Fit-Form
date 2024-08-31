@@ -39,12 +39,12 @@ const Navbar = () => {
                         <li key={index} className='md:ml-6 md:my-0 my-7 flex flex-col items-center'>
                             <Link 
                                 to={link.link} 
-                                className={`font-semibold text-[16px] ml-3 ${activeLink === link.link ? 'text-[#8C5B00]' : 'text-[#787070]'}`}
+                                className={`font-normal text-[16px] ml-3 ${activeLink === link.link ? 'text-[#8C5B00]' : 'text-[#787070]'}`}
                                 onClick={() => setActiveLink(link.link)}
                             >
                                 {link.name}
                             </Link>
-                            {activeLink === link.link && <img src={navvector} alt="navvector" className='mt-2' />}
+                            {activeLink === link.link && <img src={navvector} alt="navvector" className='-mt-1' />}
                         </li>
                     ))}
 
