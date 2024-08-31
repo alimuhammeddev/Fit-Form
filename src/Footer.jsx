@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="relative bg-[#396BAA] lg:p-10 lg:pl-48 p-5">
   <img src={footerimage} alt="Background Image" className="absolute inset-0 w-full object-cover opacity-50" />
   <div className="relative">
-    <div className='grid lg:grid-cols-4 grid-cols-1 gap-10'>
+    <div className='grid lg:grid-cols-4 grid-cols-1 gap-10 lg:w-fit lg:justify-center lg:mx-auto'>
 
       <div>
         <h1 style={headingStyle} className='text-[#FFF6E6] text-[36px]'>Fitform</h1>
@@ -43,12 +43,14 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className='lg:flex items-center lg:justify-between lg:space-y-0 space-y-3 lg:mt-10'>
-      <div className='lg:mt-0 mt-5 lg:mx-0 justify-center mx-auto flex'>
-        <img src={socials2} alt="" />
-      </div>
-      <div>
-        <h1 className='text-[#ffffff] text-[14px] lg:mr-40 text-center'>© 2024 Fitform. All rights reserved.</h1>
+    <div className='lg:justify-center mx-auto flex'>
+      <div className='grid lg:grid-cols-2 items-center lg:space-x-[280px] space-y-3 lg:mt-10'>
+        <div className='lg:mt-0 mt-5 lg:mx-0 lg:justify-start justify-center mx-auto'>
+          <img src={socials2} alt="" />
+        </div>
+        <div>
+          <h1 className='text-[#ffffff] text-[14px] lg:mr-40 lg:text-end text-center'>© 2024 Fitform. All rights reserved.</h1>
+        </div>
       </div>
     </div>
   </div>
