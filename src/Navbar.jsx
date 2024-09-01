@@ -44,7 +44,7 @@ const Navbar = () => {
                             >
                                 {link.name}
                             </Link>
-                            {activeLink === link.link && <img src={navvector} alt="navvector" className='-mt-1' />}
+                            {activeLink === link.link && <img src={navvector} alt="navvector" className='-mt-1 ml-3' />}
                         </li>
                     ))}
 

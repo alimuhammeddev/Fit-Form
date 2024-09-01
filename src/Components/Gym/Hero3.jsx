@@ -36,7 +36,7 @@ const Hero3 = () => {
       </div>
 
       <div className="grid lg:grid-cols-3 lg:pb-10 mt-16 lg:pl-10 lg:gap-0 gap-5">
-        <div className="bg-[#FFFFFF] border border-[#5FA5FD80] lg:w-[374px] lg:h-[517px] lg:p-10 p-5 hover:shadow-2xl cursor-pointer transition ease-out duration-500">
+        <div className="bg-[#FFFFFF] border border-[#5FA5FD80] lg:w-[374px] lg:h-[517px] lg:p-10 p-5 hover:shadow-lg cursor-pointer transition ease-out duration-500">
           <h1 className="text-[24px] text-[#1B1B1B] font-semibold flex items-center gap-1 justify-center">
             <img src={rhombus} alt="" /> Basic
           </h1>
@@ -68,7 +68,7 @@ const Hero3 = () => {
           </div>
         </div>
 
-        <div className="bg-[#FFFFFF] border border-[#396BAA1A] lg:w-[374px] lg:h-[570px] shadow-2xl cursor-pointer transition ease-out duration-500">
+        <div className="bg-[#FFFFFF] border border-[#396BAA1A] lg:w-[374px] lg:h-[570px] shadow-md cursor-pointer transition ease-out duration-500">
           <div>
             <h1 className="bg-[#EAF3FF] p-2 text-[16px] text-[#0071FE] font-semibold text-center">
               Most Popular
@@ -110,7 +110,7 @@ const Hero3 = () => {
           </div>
         </div>
 
-        <div className="bg-[#FFFFFF] border border-[#5FA5FD80] lg:w-[374px] lg:h-[517px] lg: p-5 lg:p-10 hover:shadow-2xl cursor-pointer transition ease-out duration-500">
+        <div className="bg-[#FFFFFF] border border-[#5FA5FD80] lg:w-[374px] lg:h-[517px] lg: p-5 lg:p-10 hover:shadow-lg cursor-pointer transition ease-out duration-500">
           <h1 className="text-[24px] text-[#1B1B1B] font-semibold flex items-center gap-1 justify-center">
             <img src={crown} alt="" /> Premium
           </h1>
